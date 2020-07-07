@@ -22,10 +22,10 @@ void setup() {
   Serial.println(E2B.B_E(cap_a));// A
 
   //1 -> braille
-  int num[6] = {0, 0, 1, 1, 1, 1};
+  int num[6] = {0, 0, 1, 1, 1, 1};//num
   int num_1[6] = { 1, 0, 0, 0, 0, 0};//1
-  Serial.println(E2B.B_E(num));
-  Serial.println(E2B.B_E(num_1));
+  Serial.println(E2B.B_E(num));// ' '  
+  Serial.println(E2B.B_E(num_1));//'1'  
 }
 
 void loop() {
