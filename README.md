@@ -8,6 +8,8 @@ please import E2B
 
 
 E_B(char x) : return char[6 or 12(english or number)]
+
+
 B_E(int x[]) : return char
 
 
